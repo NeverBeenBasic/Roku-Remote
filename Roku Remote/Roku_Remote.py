@@ -2,7 +2,7 @@ import requests
 import tkinter as tk
 
 # Set the IP address of your Roku TV
-ip_address = "10.0.0.75"
+ip_address = input("Enter the IP address of your Roku TV: ")
 
 # Define the URL of the Roku API endpoint
 url = f"http://{ip_address}:8060/keypress/"
